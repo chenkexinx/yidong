@@ -1,0 +1,643 @@
+/*
+* @Author: Administrator
+* @Date:   2018-02-05 14:13:00
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-02-07 13:49:59
+*/
+body{
+	height: 1800px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.container{
+	margin: 0 auto;
+	width:7.02rem ;
+	/* border: 0.01rem solid blue; */
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/* 头部 */
+.header{
+	width: 7.5rem;
+	height: 1rem;
+	/* 窗口定位 */
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* 设置叠放顺序 */
+	z-index: 10;
+	background: url('../images/header.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.hesder-left{
+	width: 0.37rem;
+	height: 0.32rem;
+	/* background-color: yellow; */
+	margin-top: 0.36rem;
+	margin-left: 0.24rem;
+}
+.hesder-left li{
+	width: 0.36rem;
+	border: 0.04rem solid white;
+}
+.hl2{
+	margin: 0.1rem auto;
+}
+.hesder-center{
+	width: 6.15rem;
+	height: 1rem;
+	background:url('../images/banner3_03.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 0.94rem 0.72rem;
+}
+.hesder-rifgt{
+	width: 0.5rem;
+	height: 0.5rem;
+    background:url('../images/banner1.png');
+    background-size: 0.5rem 0.5rem;
+	margin-top: 0.26rem;
+	margin-right: 0.24rem;
+
+}
+
+
+/* banner */
+.banner{
+	width: 7.5rem;
+	height: 4.33rem;
+	margin-top: 1.12rem;
+}
+.banner img{
+	width: 100%;
+}
+.banner div{
+	float: right;
+	width: 1.2rem;
+	height: 0.18rem;
+	position: relative;
+	top: -0.5rem;
+	right: 0.1rem;
+	
+}
+.banner div a{
+	display: block;
+	float: left;
+	margin-left: 0.1rem;
+	width: 0.1rem;
+	height: 0.1rem;
+	background-color:gray;
+	border-radius:50%;
+	position: relative;
+	top: -0.23rem;
+	left: 0.05rem;
+}
+.banner div .b-lunbo{
+	background-color:#FDC80F;
+}
+
+
+
+
+
+
+/* 热搜 */
+.hot{
+	width: 7.5rem;
+	height: 4.75rem;
+	background-color: #eeeeec;
+}
+.hot-top{
+	width: 100%;
+	height: 1.1rem;
+	background:url('../images/hot_03.png');
+	background-size: 7.5rem 1.2rem;
+    background-repeat: no-repeat;
+}
+.hot-center>div{
+	width: 2.17rem;
+	height: 2.88rem;
+	background-color: white;
+	float: left;
+	margin-left: 0.24rem;
+	border-radius: 0.1rem;
+}
+.hot-center .hot-c-1{
+	margin-left: 0;
+}
+.hot-center>div img{
+	width: 100%;
+}
+.hot-center>div p{
+	font-family: "苹方";
+	font-size: 0.18rem;
+	margin-left: 0.1rem;
+	margin-top: -0.15rem;
+}
+.hot-center>div i{
+	width: 0.26rem;
+	height: 0.26rem;
+	display: block;
+	background: url('../images/jiahao_03.png');
+	background-size: 0.26rem 0.26rem;
+	margin-right: 0.24rem;
+	margin-top: -0.13rem;
+}
+.hot-foot{
+	/* 清除浮动 */
+	/* clear: both; */
+	width: 7.5rem;
+	height: 1.02rem;
+	background-color: #0fcbcb;
+	margin-top: 2.6rem;
+	/* margin-left: -0.1rem; */
+}
+.hot-foot div{
+	width: 1.2rem;
+	height: 0.18rem;
+	position: relative;
+	top: 0.6rem;
+	left: 3rem;
+}
+.hot-foot div a{
+	display: block;
+	float: left;
+	margin-left: 0.1rem;
+	width: 0.1rem;
+	height: 0.1rem;
+	background-color:gray;
+	border-radius:50%;
+	position: relative;
+	top: -0.23rem;
+	left: 0.05rem;
+}
+.hot-foot div .lunbo{
+	background-color:#FDC80F;
+}
+
+
+
+/* 潮牌 */
+.chaopai{
+	width: 7.5rem;
+	height: 6.55rem;
+	background-color: #EEEEEC;
+}
+.cp-top{
+	width: 7.5rem;
+	height: 2.47rem;
+}
+.cp-top .cp-s{
+	width: 7.5rem;
+	height: 0.98rem;
+}
+.cp-top .cp-s img{
+	float: left;
+	width: 2.37rem;
+	height: 0.5rem;
+	position: relative;
+	top: 0.2rem;
+	left: 0.24rem;
+}
+.cp-top .cp-s div{
+	width: 0.36rem;
+	height: 0.5rem;
+	margin-top: 0.2rem;
+	margin-right: 0.24rem;
+}
+.cp-top .cp-s li{
+	float: right;
+	width: 0.36rem;
+	border: 0.04rem solid black;
+}
+.cp-top .cp-x div{
+	width: 7.02rem;
+	height: 1.3rem;
+	background-color: #F57D41;
+	margin: 0 auto;
+	border-radius:0.08rem;
+}
+.cp-top .cp-x div ui{
+	display: block;
+	width: 7.02rem;
+	height: 0.78rem;
+	position: relative;
+	top: 0.25rem;
+}
+.cp-top .cp-x div li{
+	float: left;
+	width: 0.78rem;
+	height: 0.78rem;
+	/* background-color: white; */
+	margin-right: 0.3rem;
+	border-radius:50%;
+	position: relative;
+	left: 0.4rem;
+
+}
+.cp-top .cp-x div img{
+	width: 0.8rem;
+	height: 0.8rem;
+	position: relative;
+	top: -0.26rem;
+	left: -0.02rem;	
+}
+.cp-foot{
+	height: 4.08rem;
+	background-color: white;
+
+}
+.cp-foot .tupian {
+	width: 7.02rem;
+	height: 4.08rem;
+    
+}
+.cp-foot .tupian div{
+	float: left;
+	width: 2.34rem;
+	height: 2.04rem; 
+}
+.cp-foot .tupian div img{
+	width: 2.34rem;
+	height: 2.04rem;
+}
+
+
+
+
+
+
+
+/* 标签 */
+.work{
+	width: 7.5rem;
+	height: 22.15rem;
+	background-color: #EEEEEC;
+	padding-top: 0.2rem;
+	margin-bottom: 0.85rem;
+}
+.work-top{
+	line-height: 0.62rem;
+	height: 0.62rem;
+	margin-bottom: 0.24rem;
+	border-radius: 0.05rem;
+	background: url('../images/hong_03.png');
+	background-size:7.02rem 0.62rem;
+}
+.circle{
+	border-radius: 50%;
+	width: 0.1rem;
+	height: 0.1rem;
+	background: white;
+	margin: 0.25rem 0.21rem;
+}
+.con-center{
+	width: 5.58rem;
+	text-align: center;
+	font-size: 0.36rem;
+	color: white;
+}
+/* 并列选择器 */
+.work-l, .work-r{
+	width: 3.4rem;
+	height: 21rem;
+	/* background: red; */
+}
+
+.w-f-h{
+	width: 100%;
+	height: 6.78rem;
+	background-color: white;
+	margin-bottom: 0.24rem;
+	border-radius:0.05rem;
+	box-shadow: 0.05rem 0.05rem 0.2rem #C9C9C9;
+}
+.w-f-h1{
+	width: 100%;
+	height: 3.92rem;
+	background-color: white;
+	margin-bottom: 0.24rem;
+	border-radius:0.05rem;
+	box-shadow: 0.05rem 0.05rem 0.2rem #C9C9C9;
+}
+.work-foot>div>div{
+	border-radius: 0.05rem;
+}
+.w-f-h2{
+	width: 100%;
+	height: 9.6rem;
+	background: white;
+	margin-bottom: 0.24rem;
+	border-radius:0.05rem;
+	box-shadow: 0.05rem 0.05rem 0.2rem #C9C9C9;
+}
+
+.work-l img{
+	width: 3.4rem;
+	height: 3.68rem;
+	margin-bottom: 0.2rem;
+}
+.work-l div h3{
+	float: left;
+	width: 3rem;
+	height: 0.3rem;
+	font-size: 0.24rem;
+	font-family:"苹方";
+	color: #565252;
+	margin: -0.26rem 0.2rem 0;
+}
+.work-l div a{
+	display: block;
+	float: left;
+	width: 3rem;
+	height: 0.2rem;
+	margin: 0 0.2rem;
+	margin-top: 0.2rem;
+}
+.work-l div .pl{
+	width: 3rem;
+	height: 0.2rem;
+	font-size: 0.14rem;
+	font-family:"sanfranciscodisplay-regular-webfont";
+	line-height: 0.14rem;
+	color: #c2bdbd;	
+}
+.work-l div .tb img{
+	float: left;
+	width: 0.16rem;
+	height: 0.16rem;
+	margin-bottom: 0;
+}
+.work-l div .tb .tb2{
+	width: 0.16rem;
+	height: 0.16rem;
+	margin-left: 1rem;
+}
+.work-l div .pl{
+	position: relative;
+	left: -1.1rem;
+}
+.work-l div .z-w{
+	float: left;
+	width: 3rem;
+	height: 1rem;
+	font-size: 0.16rem;
+	font-family:"苹方";
+	color: #565252;
+	margin: 0 0.2rem;
+	margin-top: 0.15rem;
+}
+
+.work-l .xing {
+	width: 1.1rem;
+	height: 0.25rem;
+	line-height: 3rem;
+	margin-left: 0.2rem;
+	margin-bottom: 0;
+	position: relative;
+	top: -0.95rem;
+	left: -0.1rem;
+}
+.work-l .touxiang{
+	width: 3.4rem;
+	height: 0.88rem;
+	margin: -1.15rem 0 0;
+	/* background-color: red; */
+	border-radius:0.05rem;
+	box-shadow: 0.05rem 0.05rem 0.2rem #C9C9C9;
+}
+.work-l .touxiang .tx{
+	width: 0.62rem;
+	height: 0.62rem;
+	margin-left:0.2rem;
+	/* background-color: pink; */
+	border-radius:50%;
+	position: relative;
+	top: 0.13rem;
+}
+.work-l .touxiang img{
+	float: left;
+	width: 0.62rem;
+	height: 0.62rem;
+	position: relative;
+	top: 0.13rem;
+	left: 0.22rem;
+}
+.work-l .touxiang p{
+	display: block;
+	float: left;
+	width: 2.5rem;
+	height: 0.3rem;
+	font-size: 0.15rem;
+	font-family:"苹方";
+	color: #565252;
+	position: relative;
+	top: 0.1rem;
+	left: 0.4rem;
+}
+.work-l .touxiang .tx-z{
+	color: black;
+
+}
+
+
+
+
+
+.work-r img{
+	width: 3.4rem;
+	height: 3.68rem;
+	margin-bottom: 0.2rem;
+}
+.work-r div h3{
+	float: left;
+	width: 3rem;
+	height: 0.3rem;
+	font-size: 0.24rem;
+	font-family:"苹方";
+	color: #565252;
+	margin: -0.26rem 0.2rem 0;
+}
+.work-r div a{
+	display: block;
+	float: left;
+	width: 3rem;
+	height: 0.2rem;
+	margin: 0 0.2rem;
+	margin-top: 0.2rem;
+}
+.work-r div .pl{
+	width: 3rem;
+	height: 0.2rem;
+	font-size: 0.14rem;
+	font-family:"sanfranciscodisplay-regular-webfont";
+	line-height: 0.14rem;
+	color: #c2bdbd;	
+}
+.work-r div .tb img{
+	float: left;
+	width: 0.16rem;
+	height: 0.16rem;
+	margin-bottom: 0;
+}
+.work-r div .tb .tb2{
+	width: 0.16rem;
+	height: 0.16rem;
+	margin-left: 1rem;
+}
+.work-r div .z-w{
+	float: left;
+	width: 3rem;
+	height: 1rem;
+	font-size: 0.16rem;
+	font-family:"苹方";
+	color: #565252;
+	margin: 0 0.2rem;
+	margin-top: 0.15rem;
+}
+.work-r div .xing {
+	width: 1.1rem;
+	height: 0.25rem;
+	line-height: 3rem;
+	margin-left: 0.2rem;
+	margin-bottom: 0;
+	position: relative;
+	top: -0.95rem;
+	left: -0.1rem;
+}
+.work-r div .touxiang{
+	width: 3.4rem;
+	height: 0.88rem;
+	margin: -1.15rem 0 0;
+	/* background-color: red; */
+	border-radius:0.05rem;
+	box-shadow: 0.05rem 0.05rem 0.2rem #C9C9C9;
+}
+.work-r div .touxiang img{
+	float: left;
+	width: 0.62rem;
+	height: 0.62rem;
+	position: relative;
+	top: 0.13rem;
+	left: 0.22rem;
+}
+.work-r div .touxiang p{
+	display: block;
+	float: left;
+	width: 2.5rem;
+	height: 0.3rem;
+	font-size: 0.15rem;
+	font-family:"苹方";
+	color: #565252;
+	position: relative;
+	top: 0.1rem;
+	left: 0.4rem;
+}
+.work-r .w-f-h2 img{
+	width: 3.4rem;
+	height: 6.4rem;
+}
+.work-r .w-f-h2 .xing {
+	width: 1.1rem;
+	height: 0.25rem;
+	line-height: 0rem;
+	margin-left: 0.2rem;
+	margin-bottom: 0;
+	position: relative;
+	top: -0.95rem;
+	left: -0.1rem;
+}
+.work-r .w-f-h2 .touxiang{
+	margin: -1rem 0 0;
+}
+.work-r .w-f-h1 img{
+	width: 3.4rem;
+	height: 2.5rem;
+	margin-bottom: 0.2rem;
+}
+.work-r .w-f-h1 p{
+	width: 3rem;
+	height: 0.4rem;
+	margin-top: -0.3rem;
+}
+.work-r .w-f-h1 .touxiang{
+	width: 3.4rem;
+	height: 0.88rem;
+	margin: 0.1rem 0 0;
+	border-radius:0.05rem;
+	box-shadow: 0.05rem 0.05rem 0.2rem #C9C9C9;
+}
+.work-r .w-f-h1 .touxiang img{
+	float: left;
+	width: 0.62rem;
+	height: 0.62rem;
+	position: relative;
+	top: 0.13rem;
+	left: 0.22rem;
+}
+.work-r .w-f-h1 .touxiang p{
+	display: block;
+	float: left;
+	width: 2.5rem;
+	height: 0.6rem;
+	font-size: 0.15rem;
+	font-family:"苹方";
+	color: #565252;
+	position: relative;
+	top: 0.4rem;
+	left: 0.4rem;
+}
+
+
+
+
+
+
+
+
+
+/* foot */
+.foot{
+	width: 7.5rem;
+	height: 1.06rem;
+	background-color: #323141;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.foot li{
+	text-align: center;
+	float: left;
+	width: 25%;
+	height: 1.06rem;
+	margin-top: -0.2rem;
+	/* background: url('../images/end_04.png'); */
+	/* background-position: center;
+
+	background-size: 2.5rem 1.2rem; */
+}
+ .iconfont{
+	/* float: left; */
+	font-size: 0.8rem;
+	color: white;
+
+}
+ .icon-shouye{
+	/* float: left; */
+	font-size: 0.8rem;
+	color: #ed464d;
+}
